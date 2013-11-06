@@ -1,0 +1,61 @@
+#notes{
+	width:250px;
+	background-color:white;
+	border:1px solid #262626;
+	padding:0;
+	margin-top:1em;
+	margin-left:1em;
+	
+}
+#notes h2{
+	background-color:#013348;
+	padding:3px;
+	color:#ffcc00;
+	margin:0;
+	text-align:center;
+	font-size:1.2em;
+	border-bottom:1px solid #262626;
+	font-weight:bold;
+}
+
+#notes a{
+	display:block;
+	margin:10px;
+}
+#add_note{
+	margin:0;
+	padding:0;
+	border-top:1px solid #262626;
+}
+#add_note textarea{
+	border:1px solid #262626;
+	padding:3px;
+	margin:10px auto;
+	display:block;
+	float:none;
+	width:85%;
+	
+}
+
+#add_note input.submit{
+	margin:10px;
+	width:10em;
+}
+.single_note{
+	padding:5px;
+	margin:5px 0;
+	border-bottom:1px solid #262626;
+}
+.single_note p{
+	color:black;
+}
+.single_note cite{
+	display:block;
+	font-size:.65em;
+	margin:5px 9px;
+}	
+.single_note a{
+	font-size:.70em;
+	color:red;
+	margin:10px;
+}

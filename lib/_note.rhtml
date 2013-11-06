@@ -1,0 +1,8 @@
+<div id="note_<%= note.id %>" class="single_note">
+	
+	<p><%= note.body %></p>
+	<cite><%= note.from %> (<%= note.created_at.strftime("%m-%d-%Y") %>)</cite>
+	<%= link_to_remote("Delete Note",
+                              {:url => { :controller => controller_name, :action => "delete_note", :id => note.id }}, 
+                              {:class => "delete_note" } ) %>
+</div>
